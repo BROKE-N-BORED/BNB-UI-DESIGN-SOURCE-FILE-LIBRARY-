@@ -3,6 +3,20 @@
 Dated history of the library: what landed, what changed, what got struck.
 Newest first.
 
+## 2026-11-14 — First verdicts: OLLAMA SYSTEM TEST v11-v15
+
+The feedback loop opens. The OLLAMA SYSTEM TEST UI redesign (versions 11
+to 15, native Qt/PySide6 on the 8 GB no-GPU Mint PC) used sixteen entries
+and reported back in verdicts.md: 001, 003, 004, 005, 008, 011, 012, 014,
+015, 017, 018, 020, 021, 022, 023, 037. Nine more were read and
+deliberately not used, with reasons (002, 006, 007, 009, 010, 013, 016,
+019, 024). Two corrections came back into the entries themselves: 023 now
+says the focus ring must be a `border` on `:focus`, because in this
+PySide6 build `outline` renders nothing (probed: 0 pixels); 015 now says
+a settings dialog that grows a section must scroll, or the bigger-text
+preset breaks the dialog that holds it. OLLAMA SYSTEM TEST joins the
+index as a fourteenth app, mapped to the sixteen entries it used.
+
 ## 2026-11-13 — Drop 5: choices, motion, and craft (entries 049–060)
 
 Twelve new entries: Hick's law, the aesthetic-usability effect, design

@@ -44,7 +44,12 @@ every setting inside it must still be adjustable on its own.
 **Watch out.** Do not bury presets three menus deep. First boot is where
 they belong, with a plain-words name for each one. And do not guess at
 what a preset should contain; group the settings people actually change
-together, and let the user fine-tune after.
+together, and let the user fine-tune after. And a settings dialog that
+grows a section must scroll, or the preset that makes text bigger will
+break the dialog that holds it. OLLAMA SYSTEM TEST v15 learned this the
+hard way: at 12 pt text the explanation labels overlapped each other and
+the Save button. The fix is a scroll area with the buttons below it,
+always visible.
 
 ## See also
 

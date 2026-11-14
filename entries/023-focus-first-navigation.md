@@ -47,7 +47,11 @@ paths, and Back always retreats one level. On a screen change, land
 focus on the most likely next action. On return, restore the prior
 position. And treat every required keystroke as a design failure: on TV
 the answer is voice search, phone handoff, or an activation code on the
-phone, never a D-pad keyboard.
+phone, never a D-pad keyboard. On Qt, do not trust `outline` for the
+ring: in this PySide6 build `outline` renders nothing at all (probed: 0
+pixels), so the ring must be a `border` on `:focus`. OLLAMA SYSTEM TEST
+v15 found this by probing a ring it had specified and finding it
+invisible, which is the entry working as a checklist.
 
 ## See also
 

@@ -455,3 +455,22 @@ Entry numbers are permanent IDs and are never reused.
 - [036 Affordances and signifiers](entries/036-affordances-and-signifiers.md) — the diagnostic lens.
 - [042 Touch targets you can actually hit](entries/042-touch-targets-you-can-actually-hit.md) — full-height targets on row actions.
 - [043 Command palette](entries/043-command-palette.md) — triage by typing.
+
+### OLLAMA SYSTEM TEST
+
+- [001 Micro-interactions](entries/001-micro-interactions.md) — every tick says what is picked now, in the status line.
+- [003 Calm technology](entries/003-calm-technology.md) — a run ends with a status chip, no popup.
+- [004 Just-in-time GUI](entries/004-just-in-time-gui.md) — each tab shows only the controls for the current job.
+- [005 Bento grids](entries/005-bento-grids.md) — five tiles, hero latest score.
+- [008 Delight, done right](entries/008-delight-done-right.md) — a tick and a 200 ms fade on the finish line.
+- [011 Skeleton screens and honest loading](entries/011-skeleton-screens-and-honest-loading.md) — real step count, elapsed time, ETA from the real rate.
+- [012 Progressive disclosure](entries/012-progressive-disclosure.md) — cost breakdown and model list one tap away.
+- [014 Teach by playing](entries/014-teach-by-playing.md) — first-run hint plus checklist, no tutorial text.
+- [015 Accessibility presets](entries/015-accessibility-presets.md) — Bigger text preset on the checklist.
+- [017 See it before you commit](entries/017-see-it-before-you-commit.md) — run preview with an upper time estimate.
+- [018 Scrub through time](entries/018-scrub-through-time.md) — slider walks runs newest to oldest, readout line as thumbnail.
+- [020 Setup checklist](entries/020-setup-checklist.md) — three steps on home, honestly ticked.
+- [021 Glanceable surfaces](entries/021-glanceable-surfaces.md) — status chip plus one finish line.
+- [022 Per-context profiles](entries/022-per-context-profiles.md) — each model remembers its usual templates.
+- [023 Focus-first navigation](entries/023-focus-first-navigation.md) — 2 px border focus ring, focus remembered per tab.
+- [037 Data visualization for non-analysts](entries/037-data-visualization-for-non-analysts.md) — one chart, one message, takeaway as the title.
