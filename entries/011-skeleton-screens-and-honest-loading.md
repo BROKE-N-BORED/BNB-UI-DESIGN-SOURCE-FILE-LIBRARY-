@@ -1,0 +1,25 @@
+# 011 — Skeleton screens and honest loading
+
+> Entry 011 — added 2026-11-13 (Drop 1: Modern UI design techniques).
+
+*never a dead screen*
+
+**What it is.** Instead of a spinner on a blank screen, show the shape of the
+content that is coming: grey blocks where the text and images will land.
+When the content arrives, it fills the shape. The user sees structure
+immediately and progress continuously.
+
+**Why it feels good.** A spinner says "wait." A skeleton says "here is what is
+coming, and it is on its way." It also stops layout jump: the content lands
+where the skeleton said it would, instead of shoving everything around.
+
+**Where it fits his apps.** Any list that loads from disk or a model: Forge's
+history, GITDATA's search results, Fyrn's model list, the Data Pack Builder's
+results table. Pair it with real numbers (files read, records found), not a
+fake progress bar. This is U16 and U26 from the rules, as a named technique.
+
+## See also
+
+- [010 AI-native patterns](010-ai-native-patterns.md)
+- [008 Delight, done right](008-delight-done-right.md)
+- [019 Optimistic UI](019-optimistic-ui.md)
