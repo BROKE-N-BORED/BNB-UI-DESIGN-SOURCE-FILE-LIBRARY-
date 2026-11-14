@@ -44,3 +44,4 @@ ten sounds at once.
 ## Sources
 
 - Customize Icon View in Project panel in Premiere Pro (Hover Scrub), Adobe Help, updated 2025-08-22 — https://helpx.adobe.com/premiere/desktop/get-started/customize-the-project-panel/customize-icon-view-in-project-panel.html
+- Playback and skimming overview, Apple Final Cut Pro X (10.0.9) User Manual, p. 73 (mirror via manualsdir.com) — https://www.manualsdir.com/manuals/547275/apple-final-cut-pro-x-1009.html?page=73

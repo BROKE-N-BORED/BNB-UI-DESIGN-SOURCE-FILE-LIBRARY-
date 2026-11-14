@@ -48,3 +48,4 @@ blame the app when the behaviour changes.
 ## Sources
 
 - Steam Deck Battery Life Guide, Switchblade Gaming, verified April 2026 — https://www.switchbladegaming.com/game-settings/steam-deck-battery-life-guide/
+- How to Optimize Steam Deck's Performance in Games, Guiding Tech, January 25, 2024 — https://www.guidingtech.com/optimize-steam-deck-performance/

@@ -79,6 +79,7 @@ else; entries and other files point at it instead of repeating it.
   - Drop 2 (2026-11-13): 013–024, games, editors, and gadgets.
   - Drop 3 (2026-11-13): 025–036, input, feedback, and forgiveness.
   - Drop 4 (2026-11-13): 037–048, seeing, learning, and responding.
+  - Drop 5 (2026-11-13): 049–060, choices, motion, and craft.
 - `CHANGELOG.md` — dated history of the library: drops, corrections,
   restructures.
 - `verdicts.md` — what happened when entries got used in real builds.

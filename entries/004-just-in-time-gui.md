@@ -37,3 +37,4 @@ the fallback: everything is still reachable, just not on screen.
 ## Sources
 
 - Just-in-Time GUI Expert (skill) — https://github.com/diegosouzapw/awesome-omni-skill/blob/HEAD/skills/design/jit-gui-expert/SKILL.md
+- Just-in-Time Interfaces, Andrew Sims, Signal Path, April 2, 2025 — https://signalpath.substack.com/p/just-in-time-interfaces

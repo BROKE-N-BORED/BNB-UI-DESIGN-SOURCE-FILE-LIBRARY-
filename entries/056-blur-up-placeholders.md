@@ -1,0 +1,30 @@
+# 056 — Blur-up placeholders
+
+> Entry 056 — added 2026-11-13 (Drop 5: Choices, motion, and craft).
+
+*The picture arrives blurry and sharpens, instead of arriving all at once or not at all.*
+
+**What it is.** A blur-up placeholder shows a tiny, blurred version of an image the instant its slot appears on screen, then swaps in the full image when it finishes loading. The placeholder is the image itself, shrunk to a few dozen pixels wide, scaled up to fill the slot, and smoothed with a Gaussian blur so the pixels read as color and shape instead of blocks. Facebook's engineering team introduced the technique in 2015 for cover photos in their native apps: the cover was large and slow, and the jump from a solid color to the photo was jarring, so they shipped a miniature preview inside the first response and blurred it into place. Medium and Pinterest use the same approach on the web, and Next.js builds it into its image component. Wolt's BlurHash is the compact variant: instead of a tiny image file, the preview is a short string of 20 to 30 characters that the client decodes into a soft gradient. Either way the user never stares at an empty grey box, and the layout never jumps, because the placeholder holds the exact space the full image will take.
+
+**Why it feels good.** An empty image slot reads as broken. A spinner reads as waiting. A blurred preview reads as loading normally, because the brain gets color, composition, and mood at once and stops worrying about what is coming. The swap itself is gentle: the sharp image crossfades in over the blur, so there is no snap and no reflow. It also respects the machine it runs on. The placeholder is bytes, not kilobytes; the blur runs once on a thumbnail a few dozen pixels wide; the decode is trivial arithmetic. On an 8GB PC with no GPU, that is the difference between a grid that feels instant and a grid that stutters as full-size images decode one by one. And it fails gracefully: if the full image never arrives, the blurred preview is still there, looking intentional, instead of a broken-image icon.
+
+**The numbers.** Facebook's constraint was brutal: the preview had to fit inside the initial API response, capped at 200 bytes, while the cover photos it stood in for were over 100 kilobytes. Their answer was a tiny image around 40 pixels wide, upscaled with a Gaussian blur, with the JPEG header bits stored in the app instead of sent over the wire. The CSS-Tricks recreation put numbers on the web version: a 40 by 22 pixel preview came to around 1000 bytes, against a full-size JPEG of around 120KB at 1500 by 823 pixels, and the whole demo page, image included, was 1 request and 5KB gzipped. WebP does better still: Mux reports a file size approaching only 100 bytes for a tiny image at most 16 by 16 pixels with quality around 70, and warns against going below 16 pixels, since WebP encodes in 16 by 16 blocks. BlurHash compresses further, to a 20 to 30 character string, with 4 by 3 components as the usual balance of detail against length, decoded to a placeholder 32 or even 20 pixels wide and then scaled up. There are tradeoffs at each step. A Base64 image made from a BlurHash runs about 10 times larger than the string, which throws away most of the saving. Mux compared the approaches and chose the tiny-image LQIP over BlurHash: about 150 bytes larger, but better quality, and no client-side decode, since no client renders a hash natively. BlurHash ships in Wolt, Mastodon (which also uses it to mask media marked sensitive), Signal, and Jellyfin.
+
+**Where it fits his apps.** Pixel Forge: the asset grid and preset thumbnails show blurred previews while full images decode, so scrolling a large folder stays smooth instead of hitching on every row. Reblend: material preset thumbnails in the picker blur up as the list opens, so the picker feels instant even with dozens of presets. MIMIK: the capture library shows blurred posters for clips while thumbnails generate, and a poster frame per clip makes scrubbing readable before anything has decoded. Yahtzee: table art and player avatars blur in on load, so the table is never a grid of empty frames. In Qt the whole technique is a scaled QImage with a blur, no GPU needed, and the crossfade is one opacity animation on the cheap-motion budget.
+
+**Watch out.** A hash placeholder needs client-side decoding, and no platform does it natively, so budget the decode code (or take the tiny-image route and skip it). BlurHash artifacts show on hard edges: Mux's comparison found the hashes handle soft photos well but produce unintended artifacts where the image has sharp lines, so test with UI screenshots and line art, not just photos. Never use a blurred placeholder as the content itself: text inside a blurred image is unreadable until the real image lands, so a placeholder must always be a promise of the real thing, not a substitute for it. Keep the placeholder at the same aspect ratio as the final image, or the layout still jumps when the swap happens, and the whole point is lost. And respect reduced motion: the crossfade from blur to sharp should snap instead of sweeping when the user has asked for less motion, the same rule as entry 041.
+
+## See also
+
+- [011 Skeleton screens and honest loading](011-skeleton-screens-and-honest-loading.md)
+- [017 See it before you commit](017-see-it-before-you-commit.md)
+- [018 Scrub through time](018-scrub-through-time.md)
+- [046 Response-time limits](046-response-time-limits.md)
+- [051 Overview first, details on demand](051-overview-first-details-on-demand.md)
+- [058 Shared-element transitions](058-shared-element-transitions.md)
+
+## Sources
+
+- The "Blur Up" Technique for Loading Background Images, CSS-Tricks, December 2015 — https://css-tricks.com/the-blur-up-technique-for-loading-background-images/
+- A clear look at blurry image placeholders on the web, Mux, March 28, 2024 (updated November 11, 2026; read at test-mux.com) — https://www.test-mux.com/blog/blurry-image-placeholders-on-the-web
+- BlurHash README, Wolt, undated, accessed November 13, 2026 — https://raw.githubusercontent.com/woltapp/blurhash/master/Readme.md

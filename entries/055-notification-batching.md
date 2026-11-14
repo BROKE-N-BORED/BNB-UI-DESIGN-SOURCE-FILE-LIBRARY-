@@ -1,0 +1,28 @@
+# 055 — Notification batching
+
+> Entry 055 — added 2026-11-13 (Drop 5: Choices, motion, and craft).
+
+*The news still arrives, but it arrives at times you chose.*
+
+**What it is.** Notification batching holds non-urgent alerts and delivers them together at set times, instead of one at a time as they arrive. Nothing is deleted and nothing is lost: it waits, then arrives as a digest the user reads on their own time. Apple ships it as Scheduled Summary on iPhone: turn it on under Settings, Notifications, Scheduled Summary, pick delivery times, pick which apps join the summary, and those apps' notifications arrive together at the chosen times, ordered by priority. It is not silencing. A silenced notification may never be seen; a batched one has a guaranteed delivery time. It is also not a Focus mode. Focus filters by who and what is allowed through; batching keeps everything and changes only when it arrives. The two combine: Focus decides what can interrupt, batching decides when the rest shows up.
+
+**Why it feels good.** Random pings exploit the same psychology as a slot machine. Notifications arrive on an intermittent schedule, sometimes rewarding, sometimes not, and that unpredictability is what keeps people checking. Batching replaces the random schedule with a predictable one: the user knows the digest comes at fixed times, so there is nothing to check for in between. The trial evidence says this beats both alternatives. People who got their alerts in three daily batches felt better than people who got them as usual, and people who got no alerts at all felt worse, more anxious about what they were missing. Batching is the middle that works: fewer interruptions, no fear of missing out, and the digest itself becomes a small ritual instead of a drip of distractions. On a desktop the same logic applies to tray toasts and in-app notification centers. A build tool that pings per finished job trains the user to ignore it; one that delivers a short digest trains the user to read it.
+
+**The numbers.** The evidence is a randomized field experiment by Fitz, Kushlev, Jagannathan, Lewis, Paliwal, and Ariely, published in Computers in Human Behavior in 2019. Over 200 people residing in India ran a custom app that controlled notification delivery for two weeks, randomly assigned to one of four schedules: alerts as usual, no alerts at all (notifications only visible by opening the tray), alerts batched once an hour on the hour, and alerts batched three times a day at 9am, 3pm, and 9pm. The three times a day group was the only one that beat the control group: those participants felt happier, more productive, less stressed, and more attentive, and they unlocked their phones fewer times a day. Hourly batching produced almost no detectable benefit over ordinary delivery, so the batch window has to be wide to matter. The no alerts group got few of the benefits and reported more anxiety than the control group, while unlocking their phones just as often. On the shipping side, Apple's Scheduled Summary orders each digest by priority based on the user's current activity, with the most relevant notifications at the top, and supports more than one summary a day through Add Summary. The lighter option on the same screen is muting one app's notifications for an hour or a day.
+
+**Where it fits his apps.** STELLA: training milestones arrive as one end-of-run summary (epochs done, loss, time taken) instead of a ping per milestone while the user is doing something else. Fyrn: pull-complete notices for several models arrive as one digest, so pulling three models overnight means one morning summary, not three night-time pings. Yahtzee: turn reminders and game invites collect into one evening digest rather than pinging per move. Reblend: render-complete notices batch up, so a queue of renders reports once with the full list. In each case the urgent stays immediate: an error that needs action now, a failed pull, a crashed render, those break through the batch, because batching is for news, not for alarms.
+
+**Watch out.** Never batch the urgent. An error that needs a decision, a destructive action awaiting confirmation, and a security alert all stay immediate; a digest that hides them until evening is a bug, not a feature. Pick few windows. The trial says hourly batching is barely better than nothing, so two or three deliveries a day is the shape that works, not a batch every hour. Make the digest scannable: grouped by app or by job, priority ordered, one line each, with the full detail one click away. A digest that is itself a wall of text just moves the overload. Always let the user pull on demand: the tray or notification center opens any time, so batching never feels like losing messages. And keep the escape hatch visible. Apple puts Immediate Delivery next to Scheduled Summary per app, and the user who wants one app live should get it in one tap, not by digging through settings.
+
+## See also
+
+- [003 Calm technology](003-calm-technology.md)
+- [004 Just-in-time GUI](004-just-in-time-gui.md)
+- [021 Glanceable surfaces](021-glanceable-surfaces.md)
+- [030 Toasts and snackbars that respect attention](030-toasts-and-snackbars-that-respect-attention.md)
+- [048 Sound as UI feedback](048-sound-as-ui-feedback.md)
+
+## Sources
+
+- Batching Notifications Can Improve Attention, Well-Being, and Productivity, Springer Nature Research Communities, August 1, 2019 — https://communities.springernature.com/amp/posts/batching-notifications-can-improve-attention-well-being-and-productivity
+- View and respond to notifications on iPhone, Apple Support, iOS 18 guide — https://support.apple.com/guide/iphone/view-and-respond-to-notifications-iph6534c01bc/18.0/ios/18.0

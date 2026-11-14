@@ -36,3 +36,4 @@ model finishes pulling. Those are the moments to celebrate, quietly.
 ## Sources
 
 - Designing for Delight — https://medium.com/@bammiecreations/designing-for-delight-when-and-how-to-add-personality-to-your-interfaces-39af63c3ade5
+- A Theory of User Delight: Why Usability Is the Foundation for Delightful Experiences, Nielsen Norman Group, March 5, 2017 (updated April 30, 2020) — https://www.nngroup.com/articles/theory-user-delight/

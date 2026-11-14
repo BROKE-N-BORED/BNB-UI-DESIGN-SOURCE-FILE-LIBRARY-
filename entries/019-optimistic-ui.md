@@ -49,3 +49,4 @@ edits).
 ## Sources
 
 - Building an Optimistic UI with RxDB, RxDB, updated 2026-07-31 — https://rxdb.info/articles/optimistic-ui.html
+- Optimistic mutation results, Apollo Client documentation (living docs, undated) — https://github.com/apollographql/apollo-client/blob/main/docs/source/performance/optimistic-ui.mdx

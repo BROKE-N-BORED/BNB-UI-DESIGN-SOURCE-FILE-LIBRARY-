@@ -55,3 +55,4 @@ empty state instead.
 ## Sources
 
 - Onboarding checklist UX: how to design one merchants finish, Geetansh Saini, 2026-10-13 — https://www.geeetansh.com/guides/onboarding-checklist-design
+- Setup guide, Shopify App Home patterns, shopify.dev (living docs, undated) — https://shopify.dev/docs/api/app-home/latest/patterns/compositions/setup-guide

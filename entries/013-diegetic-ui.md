@@ -45,3 +45,4 @@ plain for the warnings.
 ## Sources
 
 - MOLE horror game launches on Steam, diegetic sim earns strong early reviews, TechTimes, 2026-06-15 — https://www.techtimes.com/articles/318379/20260615/mole-horror-game-launches-steam-diegetic-sim-earns-strong-early-reviews.htm
+- Beyond the HUD: User Interfaces for Increased Player Immersion in FPS Games, Erik Fagerholt and Magnus Lorentzon, Chalmers University of Technology, September 2009 — http://publications.lib.chalmers.se/records/fulltext/111921.pdf

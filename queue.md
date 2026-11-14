@@ -32,36 +32,40 @@ visualization for non-analysts (037), comparison / diff views (038),
 triggered coach marks (039), live presence / named cursors (047), and
 sound as UI feedback (048). Nothing from that list is still waiting.
 
-## Leads for Drop 5 (not yet investigated)
+## The Drop 5 leads all landed
 
-Named during the Drop 4 sweep as backups that were never needed, because
-all twelve Drop 4 primaries sourced cleanly. None of these has been
-researched yet; they are leads, not drafts.
+Every lead named for Drop 5 became a Drop 5 entry: Hick's law (049),
+the aesthetic-usability effect (050), overview first, details on
+demand (051), text that scales (053), and starter content and
+templates (054). Nothing from that list is still waiting.
 
-- **Hick's law** — a concept entry in the 036/045 line: decision time
-  grows with the number and complexity of choices. NN/g has the article.
-- **The aesthetic-usability effect** — a concept entry: Kurosu and
-  Kashimura (1995) found users perceive attractive interfaces as more
-  usable. Directly supports the library's stance that creativity earns
-  its place. NN/g has the article.
-- **Overview first, details on demand** — Shneiderman's visual
-  information seeking mantra (1996, "The Eyes Have It"): overview, zoom
-  and filter, then details. A concept entry for Browsing and preview.
-- **Text that scales** — Dynamic Type and text resizing done right:
-  interfaces that hold together when the user bumps the font size.
-  Apple HIG Dynamic Type, WCAG 1.4.4 (resize 200%), Android font
-  scaling. Accessibility and comfort.
-- **Starter content and templates** — a new project that opens
-  pre-filled with a useful example instead of a blank page, so the user
-  edits instead of creating from nothing. Onboarding and learning.
+## Leads for Drop 6 (researched, not yet drafted)
+
+Two concept entries were researched as Drop 5 backups. Neither was
+needed, because all twelve Drop 5 primaries sourced cleanly. Research
+notes live in the Drop 5 drafts folder; each still needs one thing
+before drafting.
+
+- **Feedback loops** — Don Norman's human action cycle as the
+  unifying frame for the feedback pieces the library already covers
+  separately (001, 011, 030, 044, 046) and the theory behind Joshua's
+  own U16. Needs the NN/g Two Gulfs article opened as a second
+  source, plus one shipping-software example where a broken loop was
+  fixed by adding feedback.
+- **Progressive enhancement** — the core works with the most basic
+  layer alone; each fancier layer enhances without being required.
+  The desktop translation is the angle (Fyrn works when Ollama is
+  down, STELLA trains without the GPU path). Needs one desktop-side
+  shipping example so it is not a web-only entry.
 
 ## Strengthening work (not new entries)
 
-- **Thin-source entries.** Ten entries rest on a single source: 004,
-  008, 013, 018, 019, 020, 022, 023, 024, and 028. (027 was the
-  eleventh; it gained a second source in Drop 4 from the HIG
-  re-check.) None is sourceless, but a future sweep could give the
-  thinnest ones a second source each.
+- **Thin-source entries.** None remain. All ten single-source entries
+  (004, 008, 013, 018, 019, 020, 022, 023, 024, 028) gained a second
+  source each in Drop 5, from pages actually opened, with bodies
+  untouched. (027 was the eleventh; it gained its second source in
+  Drop 4.) Every entry in the library now rests on two or more
+  sources.
 - **Direct HIG re-check, still owed.** developer.apple.com would not
   load in Drop 3 or Drop 4, so the HIG claims in 026 and 027 were
   checked against mirrors instead (HIG Doctor for drag and drop, the
@@ -73,8 +77,10 @@ researched yet; they are leads, not drafts.
 Entries cover techniques today. The same structure fits:
 
 - **Concepts** — ideas bigger than one technique. Affordance is entry
-  036; Fitts's law is entry 045. Still to cover: feedback loops,
-  progressive enhancement.
+  036; Fitts's law is entry 045; Hick's law is 049, the
+  aesthetic-usability effect 050, overview first 051, design tokens
+  052. Still to cover: feedback loops, progressive enhancement (both
+  researched as Drop 5 backups; see Leads for Drop 6).
 - **People** — the designers and researchers behind the ideas (Mark
   Weiser, Amber Case, and the others the entries already name).
 - **Movements and eras** — the waves the techniques arrived in

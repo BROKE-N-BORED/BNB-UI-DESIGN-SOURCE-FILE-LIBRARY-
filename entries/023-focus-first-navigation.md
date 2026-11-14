@@ -57,3 +57,4 @@ phone, never a D-pad keyboard.
 ## Sources
 
 - TV and 10-Foot Interface Design, UX Encyclopedia, updated 2026-07-22 — https://ux.detroit3d.com/platforms/tv-10-foot.html
+- TV navigation, Android Developers (living docs, undated) — https://developer.android.com/training/tv/start/navigation

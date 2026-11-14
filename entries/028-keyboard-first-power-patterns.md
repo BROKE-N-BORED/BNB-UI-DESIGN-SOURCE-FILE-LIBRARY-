@@ -70,3 +70,4 @@ nobody has.
 ## Sources
 
 - Design a Keyboard Shortcut System, JSBits — https://www.jsbits.com/frontend-design/design-a-keyboard-shortcut-system
+- Understanding Success Criterion 2.1.4: Character Key Shortcuts, W3C WAI, WCAG 2.2 (criterion text unchanged from WCAG 2.1) — https://www.w3.org/WAI/WCAG22/Understanding/character-key-shortcuts.html

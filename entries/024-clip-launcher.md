@@ -50,3 +50,4 @@ place for anything you cannot undo.
 ## Sources
 
 - Ableton Live 12 vs Cubase 15 (2026), MusicProductionWiki, June 2026 — https://musicproductionwiki.com/articles/ableton-live-vs-cubase
+- Launching Clips, Ableton Reference Manual Version 12 (living docs, undated) — https://www.ableton.com/en/live-manual/12/launching-clips/

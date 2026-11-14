@@ -3,6 +3,30 @@
 Dated history of the library: what landed, what changed, what got struck.
 Newest first.
 
+## 2026-11-13 — Drop 5: choices, motion, and craft (entries 049–060)
+
+Twelve new entries: Hick's law, the aesthetic-usability effect, design
+tokens, text that scales, starter content and templates, notification
+batching, blur-up placeholders, staggered entrances, shared-element
+transitions, FLIP layout animations, elastic overscroll, and overview
+first, details on demand. Four are concept entries (Hick's law, the
+aesthetic-usability effect, overview first, design tokens), the most of
+any drop. Five came from the queue: Hick's law, the aesthetic-usability
+effect, overview first, text that scales, and starter content and
+templates. Motion and feel, the thinnest theme at three entries, gains
+four (staggered entrances, shared-element transitions, FLIP layout
+animations, elastic overscroll) and is thin no more. The thinnest apps
+gain the most: STELLA from twelve entries to twenty-two, Fyrn from
+twelve to twenty-two, Reblend from thirteen to twenty-three, Yahtzee
+from thirteen to twenty-four.
+
+The thin-source strengthening is finished: all ten single-source
+entries (004, 008, 013, 018, 019, 020, 022, 023, 024, 028) gained a
+second source each, from pages actually opened, with bodies untouched.
+No entry in the library rests on a single source anymore. Two research
+notes were filed for Drop 6 (feedback loops, progressive
+enhancement), each one source short of a draft.
+
 ## 2026-11-13 — Drop 4: seeing, learning, and responding (entries 037–048)
 
 Twelve new entries: data visualization for non-analysts, comparison and
