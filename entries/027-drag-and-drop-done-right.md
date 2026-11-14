@@ -69,3 +69,4 @@ exactly what the 8GB no-GPU machine handles well.
 ## Sources
 
 - Notifications, Sharing, Drag & Drop, Files & Printing, apple-hig-skills, GitHub — https://github.com/yue1123/apple-hig-skills/blob/HEAD/apple-hig/references/patterns/notifications-sharing-files.md
+- Drag and drop, HIG Doctor (structured index of Apple's canonical HIG drag-and-drop page, snapshot 2025-02-02; corroborates the 3-point drag image, Option at drop time, spring loading, badge, and selection rules) — https://apple.raintree.technology/topics/drag-and-drop

@@ -3,6 +3,36 @@
 Dated history of the library: what landed, what changed, what got struck.
 Newest first.
 
+## 2026-11-13 — Drop 4: seeing, learning, and responding (entries 037–048)
+
+Twelve new entries: data visualization for non-analysts, comparison and
+diff views, triggered coach marks, tooltips that teach, reduced motion
+done right, touch targets you can actually hit, command palette, inline
+validation, Fitts's law, response-time limits, live presence and named
+cursors, and sound as UI feedback. Fitts's law is the library's second
+concept entry, after 036. Five came from the queue: data visualization
+(the strongest holdover, from the WWDC22 chart talk and Nielsen Norman
+Group), comparison and diff views, triggered coach marks (held in Drop
+3 for weak sourcing, now resting on two NN/g articles, Apple's tips
+guidance, and a peer-reviewed study), live presence (held for a single
+source, now with a second in the Liveblocks docs), and sound as UI
+feedback (held for a single secondary doc, now resting on Material
+Design's sound guidance and the freedesktop Sound Theme Specification).
+The three thin themes are filled out: onboarding and learning,
+accessibility and comfort, and browsing and preview each go from two
+entries to four. The two thinnest apps gain the most: Fyrn from six
+entries to twelve, ACR from seven to fourteen.
+
+The HIG re-check owed from Drop 3 is done as far as the browser allows:
+developer.apple.com still would not load, but the HIG Doctor mirror of
+Apple's current drag-and-drop page confirms every checkable claim in
+entry 027 (the 3-point drag image, Option read at drop time, spring
+loading, the multi-item badge, selection kept after the drop), and it
+is now 027's second source. Entry 026's numbers stay flagged as
+reconstructions, which is what they are. One correction from the
+research: the WWDC22 chart talk is session 110340, not 10124 as the
+queue had it.
+
 ## 2026-11-13 — Drop 3: input, feedback, and forgiveness (entries 025–036)
 
 Twelve new entries: selection-following toolbar, swipe actions on list

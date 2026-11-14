@@ -2,8 +2,8 @@
 
 Future entries to research. Items land here when Joshua sends material,
 or when a sweep turns up something worth holding for later. Some items
-below were researched in Drop 3 and held on purpose; the notes say so.
-Nothing here is in the library yet — this is the list, not the library.
+below were researched and held on purpose; the notes say so. Nothing
+here is in the library yet — this is the list, not the library.
 
 ## Held from the Drop 2 sweep
 
@@ -25,33 +25,56 @@ gates). The two that remain:
   sources exist; the visionOS widget angle already lives in entry 021
   (glanceable surfaces).
 
-## Researched in Drop 3, held for a later drop
+## The Drop 3 holds all landed in Drop 4
 
-These were researched during the Drop 3 sweep and held back on purpose:
+Every item held from the Drop 3 sweep became a Drop 4 entry: data
+visualization for non-analysts (037), comparison / diff views (038),
+triggered coach marks (039), live presence / named cursors (047), and
+sound as UI feedback (048). Nothing from that list is still waiting.
 
-- **Live presence / named cursors** — researched; the numbers all rest
-  on a single Figma multiplayer case study, and the caps are
-  Figma-specific. Needs a second, independent source before it earns an
-  entry.
-- **Sound as UI feedback** — researched; rests on a single secondary HIG
-  doc, and the Linux equivalents were the researcher's own translation
-  rather than a sourced pattern. Needs a primary source.
-- **Triggered coach marks** — researched; rests on a single practitioner
-  blog, the weakest sourcing of the drop. Needs stronger material.
-- **Data visualization for non-analysts** — the strongest holdover.
-  Primary sources already identified but not yet opened: Apple's HIG
-  "Charting data" page and the WWDC22 talk "Design an effective chart".
-  Charts for people who are not analysts is a real gap in the library;
-  this is the first item to research for the next drop.
-- **Comparison / diff views for non-code content** — still open, not
-  investigated in Drop 3. Slots filled first.
+## Leads for Drop 5 (not yet investigated)
+
+Named during the Drop 4 sweep as backups that were never needed, because
+all twelve Drop 4 primaries sourced cleanly. None of these has been
+researched yet; they are leads, not drafts.
+
+- **Hick's law** — a concept entry in the 036/045 line: decision time
+  grows with the number and complexity of choices. NN/g has the article.
+- **The aesthetic-usability effect** — a concept entry: Kurosu and
+  Kashimura (1995) found users perceive attractive interfaces as more
+  usable. Directly supports the library's stance that creativity earns
+  its place. NN/g has the article.
+- **Overview first, details on demand** — Shneiderman's visual
+  information seeking mantra (1996, "The Eyes Have It"): overview, zoom
+  and filter, then details. A concept entry for Browsing and preview.
+- **Text that scales** — Dynamic Type and text resizing done right:
+  interfaces that hold together when the user bumps the font size.
+  Apple HIG Dynamic Type, WCAG 1.4.4 (resize 200%), Android font
+  scaling. Accessibility and comfort.
+- **Starter content and templates** — a new project that opens
+  pre-filled with a useful example instead of a blank page, so the user
+  edits instead of creating from nothing. Onboarding and learning.
+
+## Strengthening work (not new entries)
+
+- **Thin-source entries.** Ten entries rest on a single source: 004,
+  008, 013, 018, 019, 020, 022, 023, 024, and 028. (027 was the
+  eleventh; it gained a second source in Drop 4 from the HIG
+  re-check.) None is sourceless, but a future sweep could give the
+  thinnest ones a second source each.
+- **Direct HIG re-check, still owed.** developer.apple.com would not
+  load in Drop 3 or Drop 4, so the HIG claims in 026 and 027 were
+  checked against mirrors instead (HIG Doctor for drag and drop, the
+  HIG-derived consensus for swipe actions). If the browser can ever
+  reach developer.apple.com directly, re-check them there.
 
 ## Non-technique entries the encyclopedia wants later
 
 Entries cover techniques today. The same structure fits:
 
-- **Concepts** — ideas bigger than one technique. Affordance is now
-  entry 036. Still to cover: feedback loops, progressive enhancement.
+- **Concepts** — ideas bigger than one technique. Affordance is entry
+  036; Fitts's law is entry 045. Still to cover: feedback loops,
+  progressive enhancement.
 - **People** — the designers and researchers behind the ideas (Mark
   Weiser, Amber Case, and the others the entries already name).
 - **Movements and eras** — the waves the techniques arrived in
@@ -61,4 +84,5 @@ Entries cover techniques today. The same structure fits:
 
 None. The five Drop 1 source gaps (007 Liquid Glass, 009 Shape morphing,
 010 AI-native patterns, 011 Skeleton screens, 012 Progressive disclosure)
-were filled in Drop 3. No entry in the library is sourceless.
+were filled in Drop 3, and all twelve Drop 4 entries landed with sources.
+No entry in the library is sourceless.
