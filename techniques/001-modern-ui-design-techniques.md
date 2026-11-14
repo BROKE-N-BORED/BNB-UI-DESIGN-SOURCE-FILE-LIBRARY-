@@ -365,12 +365,12 @@ If it fails any of them, leave it out.
    must be cheap: transform and opacity only, no layout thrash, no heavy
    blur on every frame. Glass effects and shadows cost real frames on weak
    hardware; use them on small surfaces, not full screens.
-4. **Does it earn its place?** Every animation, every shadow, every morph
-   should help the user understand, feel, or enjoy something. Delight and
-   personality count as earning a place. What fails is a technique that adds
-   noise without helping or pleasing anyone. (Corrected 2026-11-13: the old
-   wording here, 'No decoration for its own sake,' was Arlo's own note, not
-   one of Joshua's rules. Creativity is wanted.)
+4. **Does it make the app feel like itself?** Creativity is wanted — every
+   app should have its own look, not the same flat thing. Decoration that
+   gives the app its identity is fine. What fails is motion or styling that
+   fights readability or costs frames on his PC. (Joshua, 2026-11-13: "some
+   shit should be creative... everything you make is boring and looks
+   exactly the same.")
 
 ## Quick map: techniques by project
 
