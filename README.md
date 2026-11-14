@@ -18,6 +18,44 @@ D1-D3), Part 3 is the techniques drawer. From 2026-11-13, all UI design rules
 and material get pulled from this repo, at Joshua's order. The copy in the
 workspace is a working copy; this repo is the source of truth.
 
+## Reference rule repos
+
+Three external repos are rule repos for UI design work, alongside this
+library (Joshua, 2026-11-13). This repo stays the source of truth for
+his rules; these three are the external references every UI design
+task, build, and project pulls from. When the library writes up a
+technique or a project needs a resource (a font, an icon set, a color
+tool, a design system to study), check these three first and cite the
+entry. Free and open-source first, matching the hard $0 rule.
+
+- bradtraversy/design-resources-for-developers (67,398 stars,
+  2026-11-13): curated list of design and UI resources. UI graphics,
+  fonts, colors, icons, logos, favicons, icon fonts, stock photos,
+  stock videos, stock music and sound effects, vectors and clip art,
+  product and image mockups, HTML and CSS templates, CSS frameworks,
+  CSS methodologies, CSS animations, JavaScript animation libraries,
+  JavaScript chart libraries, UI components and kits,
+  React/Vue/Angular/Svelte/React Native UI libraries, design systems
+  and style guides, online design tools, downloadable design software,
+  design inspiration, image compression, Chrome/Firefox extensions, AI
+  graphic design tools.
+  https://github.com/bradtraversy/design-resources-for-developers
+- VoltAgent/awesome-design-md (127,420 stars, 2026-11-13): DESIGN.md
+  files analyzing popular brand design systems, organized by category:
+  AI and LLM platforms, developer tools and IDEs,
+  backend/database/DevOps, productivity and SaaS, design and creative
+  tools, fintech and crypto, e-commerce and retail, media and consumer
+  tech, automotive, retro web. Each DESIGN.md explains what is inside
+  and how to use it: drop one into a project and a coding agent builds
+  from it.
+  https://github.com/VoltAgent/awesome-design-md
+- gztchan/awesome-design (17,775 stars, 2026-11-13): curated design
+  resources from all over the world. Stock, color, icon and logo,
+  typography, toolkit, prototyping, mockup, user testing, read and
+  digest, styleguide and branding, tutorial, book, award, conference
+  and festival, podcast, community.
+  https://github.com/gztchan/awesome-design
+
 ## How to use this library
 
 - Start at [INDEX.md](INDEX.md): alphabetical, by topic, or by app.
@@ -80,6 +118,7 @@ else; entries and other files point at it instead of repeating it.
   - Drop 3 (2026-11-13): 025–036, input, feedback, and forgiveness.
   - Drop 4 (2026-11-13): 037–048, seeing, learning, and responding.
   - Drop 5 (2026-11-13): 049–060, choices, motion, and craft.
+  - Drop 6 (2026-11-14): 061–072, structure, comfort, and trust.
 - `CHANGELOG.md` — dated history of the library: drops, corrections,
   restructures.
 - `verdicts.md` — what happened when entries got used in real builds.

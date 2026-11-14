@@ -3,6 +3,26 @@
 Dated history of the library: what landed, what changed, what got struck.
 Newest first.
 
+## 2026-11-14 — Drop 6: structure, comfort, and trust (entries 061–072)
+
+Twelve new entries: feedback loops, progressive enhancement, dockable
+panels, density controls, discoverable shortcuts, playground mode, high
+contrast done right, colorblind-safe color, autosave and version
+history, infinite scroll vs pagination, microcopy that earns its place,
+and dark mode done right. Two are concept entries (feedback loops,
+progressive enhancement), both landed from the Drop 5 backup notes. The
+three thin themes are filled out: layout and surfaces, onboarding and
+learning, and accessibility and comfort each go from five entries to
+eight. The four thinnest apps gain the most: ACR, MIMIK, and GITDATA
+each go from fifteen entries to twenty-seven, and Qwkhnd from fifteen
+to twenty-six.
+
+The three rule repos joined the README charter:
+bradtraversy/design-resources-for-developers,
+VoltAgent/awesome-design-md, and gztchan/awesome-design are now named
+as the external references every UI design task pulls from, alongside
+this library as the source of truth for his rules.
+
 ## 2026-11-14 — First verdicts: OLLAMA SYSTEM TEST v11-v15
 
 The feedback loop opens. The OLLAMA SYSTEM TEST UI redesign (versions 11

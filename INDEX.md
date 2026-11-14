@@ -9,39 +9,51 @@ Entry numbers are permanent IDs and are never reused.
 - [015 Accessibility presets](entries/015-accessibility-presets.md) — one tap, a whole comfort setup.
 - [036 Affordances and signifiers](entries/036-affordances-and-signifiers.md) — the thing tells you what it does before you read a label.
 - [010 AI-native patterns](entries/010-ai-native-patterns.md) — the interface for talking to a model.
+- [069 Autosave and version history](entries/069-autosave-and-version-history.md) — work that saves itself, and can be wound back.
 - [005 Bento grids](entries/005-bento-grids.md) — size is the hierarchy.
 - [056 Blur-up placeholders](entries/056-blur-up-placeholders.md) — blurry first, sharp when ready.
 - [003 Calm technology](entries/003-calm-technology.md) — the interface that knows when to shut up.
 - [024 Clip launcher](entries/024-clip-launcher.md) — tap a pad, it plays.
+- [068 Colorblind-safe color](entries/068-colorblind-safe-color.md) — color never carries meaning alone.
 - [043 Command palette](entries/043-command-palette.md) — every command, a few letters away.
 - [038 Comparison and diff views](entries/038-comparison-and-diff-views.md) — show what changed, side by side.
 - [034 Conversational repair](entries/034-conversational-repair.md) — the voice says what it heard and asks for the missing piece.
+- [072 Dark mode done right](entries/072-dark-mode-done-right.md) — a second design, not the light theme flipped.
 - [037 Data visualization for non-analysts](entries/037-data-visualization-for-non-analysts.md) — one chart, one message, readable at a glance.
 - [008 Delight, done right](entries/008-delight-done-right.md) — personality in the small places.
+- [064 Density controls](entries/064-density-controls.md) — comfortable for reading, compact for scanning.
 - [052 Design tokens](entries/052-design-tokens.md) — every visual decision gets a name.
 - [013 Diegetic UI](entries/013-diegetic-ui.md) — the interface lives inside the work.
+- [065 Discoverable shortcuts](entries/065-discoverable-shortcuts.md) — the shortcut nobody finds is a feature nobody has.
+- [063 Dockable panels](entries/063-dockable-panels.md) — the workspace fits the job.
 - [027 Drag and drop done right](entries/027-drag-and-drop-done-right.md) — pick it up, put it down, know where it lands.
 - [060 Elastic overscroll](entries/060-elastic-overscroll.md) — pull past the end and it springs home.
 - [031 Empty states and error states done well](entries/031-empty-states-and-error-states-done-well.md) — the blank screen and the broken moment.
+- [061 Feedback loops](entries/061-feedback-loops.md) — every action answers back.
 - [045 Fitts's law](entries/045-fitts-law.md) — big and close is fast; small and far is slow.
 - [059 FLIP layout animations](entries/059-flip-layout-animations.md) — the layout changes instantly; the eye sees it glide.
 - [023 Focus-first navigation](entries/023-focus-first-navigation.md) — the highlight is the cursor.
 - [033 Forgiving UI](entries/033-forgiving-ui.md) — nothing you do by accident is final.
 - [021 Glanceable surfaces](entries/021-glanceable-surfaces.md) — one fact, no opening the app.
 - [049 Hick's law](entries/049-hicks-law.md) — decision time grows with the log of the choices.
+- [067 High contrast done right](entries/067-high-contrast-done-right.md) — text you can read, not guess at.
+- [070 Infinite scroll vs pagination](entries/070-infinite-scroll-vs-pagination.md) — two ways through a long list.
 - [044 Inline validation](entries/044-inline-validation.md) — wrong field, flagged while you're still there.
 - [004 Just-in-time GUI](entries/004-just-in-time-gui.md) — invisible until the moment it matters.
 - [028 Keyboard-first power patterns](entries/028-keyboard-first-power-patterns.md) — every action has a key.
 - [007 Liquid Glass and glassmorphism 2.0](entries/007-liquid-glass.md) — depth as a navigation cue.
 - [047 Live presence and named cursors](entries/047-live-presence-and-named-cursors.md) — see who else is here, and where they're looking.
 - [001 Micro-interactions](entries/001-micro-interactions.md) — the small moments that make it feel alive.
+- [071 Microcopy that earns its place](entries/071-microcopy-that-earns-its-place.md) — every word does a job, or it goes.
 - [006 Neo-skeuomorphism (Soft UI)](entries/006-neo-skeuomorphism.md) — controls you want to press.
 - [055 Notification batching](entries/055-notification-batching.md) — the news arrives at times you chose.
 - [019 Optimistic UI](entries/019-optimistic-ui.md) — show it done, then confirm.
 - [051 Overview first, details on demand](entries/051-overview-first-details-on-demand.md) — the whole first, the detail when asked.
 - [022 Per-context profiles](entries/022-per-context-profiles.md) — settings follow the job.
 - [016 Pie menus](entries/016-pie-menus.md) — flick, don't hunt.
+- [066 Playground mode](entries/066-playground-mode.md) — break it here, so you never break it there.
 - [012 Progressive disclosure](entries/012-progressive-disclosure.md) — the minimum now, the rest when asked.
+- [062 Progressive enhancement](entries/062-progressive-enhancement.md) — the core works with nothing fancy attached.
 - [041 Reduced motion done right](entries/041-reduced-motion-done-right.md) — less motion, same meaning.
 - [046 Response-time limits](entries/046-response-time-limits.md) — 0.1s feels instant, 1s keeps the flow, 10s loses it.
 - [018 Scrub through time](entries/018-scrub-through-time.md) — hover or drag to see inside.
@@ -97,6 +109,10 @@ Entry numbers are permanent IDs and are never reused.
 - [013 Diegetic UI](entries/013-diegetic-ui.md)
 - [052 Design tokens](entries/052-design-tokens.md)
 
+- [063 Dockable panels](entries/063-dockable-panels.md)
+- [064 Density controls](entries/064-density-controls.md)
+- [072 Dark mode done right](entries/072-dark-mode-done-right.md)
+
 ### Feedback and trust
 
 - [008 Delight, done right](entries/008-delight-done-right.md)
@@ -117,6 +133,9 @@ Entry numbers are permanent IDs and are never reused.
 - [048 Sound as UI feedback](entries/048-sound-as-ui-feedback.md)
 - [050 The aesthetic-usability effect](entries/050-aesthetic-usability-effect.md)
 
+- [061 Feedback loops](entries/061-feedback-loops.md)
+- [069 Autosave and version history](entries/069-autosave-and-version-history.md)
+
 ### Onboarding and learning
 
 - [014 Teach by playing](entries/014-teach-by-playing.md)
@@ -125,6 +144,10 @@ Entry numbers are permanent IDs and are never reused.
 - [039 Triggered coach marks](entries/039-triggered-coach-marks.md)
 - [040 Tooltips that teach](entries/040-tooltips-that-teach.md)
 - [054 Starter content and templates](entries/054-starter-content-and-templates.md)
+
+- [065 Discoverable shortcuts](entries/065-discoverable-shortcuts.md)
+- [066 Playground mode](entries/066-playground-mode.md)
+- [071 Microcopy that earns its place](entries/071-microcopy-that-earns-its-place.md)
 
 ### Navigation and input
 
@@ -152,6 +175,10 @@ Entry numbers are permanent IDs and are never reused.
 - [042 Touch targets you can actually hit](entries/042-touch-targets-you-can-actually-hit.md)
 - [053 Text that scales](entries/053-text-that-scales.md)
 
+- [062 Progressive enhancement](entries/062-progressive-enhancement.md)
+- [067 High contrast done right](entries/067-high-contrast-done-right.md)
+- [068 Colorblind-safe color](entries/068-colorblind-safe-color.md)
+
 ### Browsing and preview
 
 - [017 See it before you commit](entries/017-see-it-before-you-commit.md)
@@ -161,6 +188,8 @@ Entry numbers are permanent IDs and are never reused.
 - [038 Comparison and diff views](entries/038-comparison-and-diff-views.md)
 - [051 Overview first, details on demand](entries/051-overview-first-details-on-demand.md)
 - [056 Blur-up placeholders](entries/056-blur-up-placeholders.md)
+
+- [070 Infinite scroll vs pagination](entries/070-infinite-scroll-vs-pagination.md)
 
 ## By app
 
@@ -188,6 +217,10 @@ Entry numbers are permanent IDs and are never reused.
 - [057 Staggered entrances](entries/057-staggered-entrances.md) — findings cascade in, most severe first.
 - [058 Shared-element transitions](entries/058-shared-element-transitions.md) — a finding row grows into the finding detail.
 - [059 FLIP layout animations](entries/059-flip-layout-animations.md) — findings re-sort and glide to their new places.
+- [063 Dockable panels](entries/063-dockable-panels.md) — findings, diff, and queue as docks.
+- [064 Density controls](entries/064-density-controls.md) — findings list, compact when long.
+- [065 Discoverable shortcuts](entries/065-discoverable-shortcuts.md) — ? overlay from the shortcut registry.
+- [069 Autosave and version history](entries/069-autosave-and-version-history.md) — a Timeline for reviewed files.
 
 ### STELLA
 
@@ -213,6 +246,8 @@ Entry numbers are permanent IDs and are never reused.
 - [058 Shared-element transitions](entries/058-shared-element-transitions.md) — a job card expands into the job view.
 - [059 FLIP layout animations](entries/059-flip-layout-animations.md) — the job list re-sorts and slides visibly.
 - [060 Elastic overscroll](entries/060-elastic-overscroll.md) — the training log settles softly.
+- [062 Progressive enhancement](entries/062-progressive-enhancement.md) — trains on CPU when the GPU path is absent.
+- [071 Microcopy that earns its place](entries/071-microcopy-that-earns-its-place.md) — chat copy says what the model is doing.
 
 ### DUO
 
@@ -234,6 +269,7 @@ Entry numbers are permanent IDs and are never reused.
 - [038 Comparison and diff views](entries/038-comparison-and-diff-views.md) — two models side by side is already a comparison.
 - [044 Inline validation](entries/044-inline-validation.md) — bad API key caught on blur.
 - [046 Response-time limits](entries/046-response-time-limits.md) — stream tokens as they arrive.
+- [071 Microcopy that earns its place](entries/071-microcopy-that-earns-its-place.md) — chat copy says what the model is doing.
 
 ### Fyrn
 
@@ -259,6 +295,8 @@ Entry numbers are permanent IDs and are never reused.
 - [058 Shared-element transitions](entries/058-shared-element-transitions.md) — a model row grows into the detail view.
 - [059 FLIP layout animations](entries/059-flip-layout-animations.md) — the list re-sorts and glides.
 - [060 Elastic overscroll](entries/060-elastic-overscroll.md) — the long model list stretches at its ends.
+- [062 Progressive enhancement](entries/062-progressive-enhancement.md) — works when Ollama is down.
+- [064 Density controls](entries/064-density-controls.md) — model list fits more per screen.
 
 ### Data Pack Builder
 
@@ -297,6 +335,18 @@ Entry numbers are permanent IDs and are never reused.
 - [043 Command palette](entries/043-command-palette.md) — jump to a trace view by typing.
 - [046 Response-time limits](entries/046-response-time-limits.md) — show which file is being processed.
 - [051 Overview first, details on demand](entries/051-overview-first-details-on-demand.md) — the trace overview first, scrub, click for detail.
+- [061 Feedback loops](entries/061-feedback-loops.md) — every file reported as it is processed.
+- [062 Progressive enhancement](entries/062-progressive-enhancement.md) — analyzes without a model loaded.
+- [063 Dockable panels](entries/063-dockable-panels.md) — trace, chart, and controls as docks.
+- [064 Density controls](entries/064-density-controls.md) — compact trace log, comfortable chart.
+- [065 Discoverable shortcuts](entries/065-discoverable-shortcuts.md) — keys in tooltips, a ? overlay.
+- [066 Playground mode](entries/066-playground-mode.md) — a playground run on a sample file.
+- [067 High contrast done right](entries/067-high-contrast-done-right.md) — trace and flag markers hold contrast.
+- [068 Colorblind-safe color](entries/068-colorblind-safe-color.md) — Okabe-Ito series, line styles, labels.
+- [069 Autosave and version history](entries/069-autosave-and-version-history.md) — runs autosave, earlier runs restorable.
+- [070 Infinite scroll vs pagination](entries/070-infinite-scroll-vs-pagination.md) — the trace log virtualizes.
+- [071 Microcopy that earns its place](entries/071-microcopy-that-earns-its-place.md) — errors name the file and the fix.
+- [072 Dark mode done right](entries/072-dark-mode-done-right.md) — dark traces, desaturated gold accent.
 
 ### Pixel Forge
 
@@ -328,6 +378,9 @@ Entry numbers are permanent IDs and are never reused.
 - [058 Shared-element transitions](entries/058-shared-element-transitions.md) — a preset thumbnail grows into the canvas.
 - [059 FLIP layout animations](entries/059-flip-layout-animations.md) — strip and layer reordering glides.
 - [060 Elastic overscroll](entries/060-elastic-overscroll.md) — the video strip and preset lists stretch at their ends.
+- [062 Progressive enhancement](entries/062-progressive-enhancement.md) — edits on the CPU preview path.
+- [063 Dockable panels](entries/063-dockable-panels.md) — layers, tools, presets around the canvas.
+- [066 Playground mode](entries/066-playground-mode.md) — a sample image, one tool in hand.
 
 ### Reblend
 
@@ -354,6 +407,8 @@ Entry numbers are permanent IDs and are never reused.
 - [057 Staggered entrances](entries/057-staggered-entrances.md) — the preset grid staggers in.
 - [058 Shared-element transitions](entries/058-shared-element-transitions.md) — a swatch expands into the material editor.
 - [059 FLIP layout animations](entries/059-flip-layout-animations.md) — the object list reorders and glides.
+- [063 Dockable panels](entries/063-dockable-panels.md) — viewport center, tools as docks.
+- [066 Playground mode](entries/066-playground-mode.md) — a starter scene to play in.
 
 ### MIMIK
 
@@ -372,6 +427,18 @@ Entry numbers are permanent IDs and are never reused.
 - [045 Fitts's law](entries/045-fitts-law.md) — a large capture button near the preview.
 - [048 Sound as UI feedback](entries/048-sound-as-ui-feedback.md) — a capture confirmation click.
 - [056 Blur-up placeholders](entries/056-blur-up-placeholders.md) — blurred posters while thumbnails generate.
+- [061 Feedback loops](entries/061-feedback-loops.md) — capture and save both answer back.
+- [062 Progressive enhancement](entries/062-progressive-enhancement.md) — capture and playback need no network.
+- [063 Dockable panels](entries/063-dockable-panels.md) — library and preview as docks.
+- [064 Density controls](entries/064-density-controls.md) — capture library, compact or comfortable.
+- [065 Discoverable shortcuts](entries/065-discoverable-shortcuts.md) — capture keys in the button tooltips.
+- [066 Playground mode](entries/066-playground-mode.md) — a practice capture on a sample clip.
+- [067 High contrast done right](entries/067-high-contrast-done-right.md) — capture state reads at a glance.
+- [068 Colorblind-safe color](entries/068-colorblind-safe-color.md) — REC dot plus word plus timer.
+- [069 Autosave and version history](entries/069-autosave-and-version-history.md) — captures autosave, trims versioned.
+- [070 Infinite scroll vs pagination](entries/070-infinite-scroll-vs-pagination.md) — library loads more, count always shown.
+- [071 Microcopy that earns its place](entries/071-microcopy-that-earns-its-place.md) — errors with a next step.
+- [072 Dark mode done right](entries/072-dark-mode-done-right.md) — dark capture window, preview brightest.
 
 ### Yahtzee
 
@@ -399,6 +466,7 @@ Entry numbers are permanent IDs and are never reused.
 - [058 Shared-element transitions](entries/058-shared-element-transitions.md) — a scorecard row expands into its breakdown.
 - [059 FLIP layout animations](entries/059-flip-layout-animations.md) — dice settle and rows shift visibly.
 - [060 Elastic overscroll](entries/060-elastic-overscroll.md) — the scorecard stretches at its ends.
+- [068 Colorblind-safe color](entries/068-colorblind-safe-color.md) — scoring highlights by shape too.
 
 ### LYNX SHARE (DAW)
 
@@ -419,6 +487,8 @@ Entry numbers are permanent IDs and are never reused.
 - [048 Sound as UI feedback](entries/048-sound-as-ui-feedback.md) — export done, quiet and out of the mix.
 - [049 Hick's law](entries/049-hicks-law.md) — a small set of scenes visible per bank.
 - [054 Starter content and templates](entries/054-starter-content-and-templates.md) — open with a demo song.
+- [063 Dockable panels](entries/063-dockable-panels.md) — mixer, launcher, timeline as docks.
+- [066 Playground mode](entries/066-playground-mode.md) — a demo song to mangle, reset restores it.
 
 ### GITDATA
 
@@ -437,6 +507,18 @@ Entry numbers are permanent IDs and are never reused.
 - [035 Tiered permission gates](entries/035-tiered-permission-gates.md) — deletes in the destructive tier.
 - [037 Data visualization for non-analysts](entries/037-data-visualization-for-non-analysts.md) — size and coverage overviews at a glance.
 - [051 Overview first, details on demand](entries/051-overview-first-details-on-demand.md) — repo overview, filter, click a commit for the diff.
+- [061 Feedback loops](entries/061-feedback-loops.md) — indexing and sync report real counts.
+- [062 Progressive enhancement](entries/062-progressive-enhancement.md) — the local index works offline.
+- [063 Dockable panels](entries/063-dockable-panels.md) — results and detail as a split pair.
+- [064 Density controls](entries/064-density-controls.md) — comfortable or compact lists.
+- [065 Discoverable shortcuts](entries/065-discoverable-shortcuts.md) — keys beside search and row actions.
+- [066 Playground mode](entries/066-playground-mode.md) — a demo dataset to query and reset.
+- [067 High contrast done right](entries/067-high-contrast-done-right.md) — status by icon and word, not tint.
+- [068 Colorblind-safe color](entries/068-colorblind-safe-color.md) — status by icon and word; patterned charts.
+- [069 Autosave and version history](entries/069-autosave-and-version-history.md) — edits save at once, named snapshots.
+- [070 Infinite scroll vs pagination](entries/070-infinite-scroll-vs-pagination.md) — search paginates, repo list loads more.
+- [071 Microcopy that earns its place](entries/071-microcopy-that-earns-its-place.md) — sync errors say what to do.
+- [072 Dark mode done right](entries/072-dark-mode-done-right.md) — dark lists with a clear surface ladder.
 
 ### Qwkhnd
 
@@ -455,6 +537,17 @@ Entry numbers are permanent IDs and are never reused.
 - [036 Affordances and signifiers](entries/036-affordances-and-signifiers.md) — the diagnostic lens.
 - [042 Touch targets you can actually hit](entries/042-touch-targets-you-can-actually-hit.md) — full-height targets on row actions.
 - [043 Command palette](entries/043-command-palette.md) — triage by typing.
+- [061 Feedback loops](entries/061-feedback-loops.md) — every triage action confirms in place.
+- [062 Progressive enhancement](entries/062-progressive-enhancement.md) — tasks and triage fully local.
+- [064 Density controls](entries/064-density-controls.md) — compact triage, comfortable default.
+- [065 Discoverable shortcuts](entries/065-discoverable-shortcuts.md) — one key per action, printed on the row.
+- [066 Playground mode](entries/066-playground-mode.md) — a demo board to triage first.
+- [067 High contrast done right](entries/067-high-contrast-done-right.md) — states by border and label, not tint.
+- [068 Colorblind-safe color](entries/068-colorblind-safe-color.md) — priority by shape and label.
+- [069 Autosave and version history](entries/069-autosave-and-version-history.md) — edits save instantly, deletes recoverable.
+- [070 Infinite scroll vs pagination](entries/070-infinite-scroll-vs-pagination.md) — short lists paginate, return keeps place.
+- [071 Microcopy that earns its place](entries/071-microcopy-that-earns-its-place.md) — confirmations in plain words.
+- [072 Dark mode done right](entries/072-dark-mode-done-right.md) — dark lists with a clear surface ladder.
 
 ### OLLAMA SYSTEM TEST
 

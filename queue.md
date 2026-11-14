@@ -39,24 +39,29 @@ the aesthetic-usability effect (050), overview first, details on
 demand (051), text that scales (053), and starter content and
 templates (054). Nothing from that list is still waiting.
 
-## Leads for Drop 6 (researched, not yet drafted)
+## The Drop 6 leads all landed
 
-Two concept entries were researched as Drop 5 backups. Neither was
-needed, because all twelve Drop 5 primaries sourced cleanly. Research
-notes live in the Drop 5 drafts folder; each still needs one thing
-before drafting.
+Every lead named for Drop 6 became a Drop 6 entry: feedback loops
+(061) and progressive enhancement (062). Nothing from that list is
+still waiting.
 
-- **Feedback loops** — Don Norman's human action cycle as the
-  unifying frame for the feedback pieces the library already covers
-  separately (001, 011, 030, 044, 046) and the theory behind Joshua's
-  own U16. Needs the NN/g Two Gulfs article opened as a second
-  source, plus one shipping-software example where a broken loop was
-  fixed by adding feedback.
-- **Progressive enhancement** — the core works with the most basic
-  layer alone; each fancier layer enhances without being required.
-  The desktop translation is the angle (Fyrn works when Ollama is
-  down, STELLA trains without the GPU path). Needs one desktop-side
-  shipping example so it is not a web-only entry.
+## Leads for Drop 7
+
+- **Synth demo patches** — a playable demo patch or preset that
+  teaches a synth (or any deep tool) by letting you break it safely.
+  Researched for 066 and held: no citable source was found for a
+  synth-style demo patch, so the entry went with Figma, SQLBolt, and
+  game training modes instead. Worth another look with different
+  sources; the LYNX SHARE angle (a demo song to mangle) is the
+  strongest fit.
+- **Thin themes after Drop 6.** Attention and calm (6 entries) and
+  motion and feel (7) are the thinnest themes now; browsing and
+  preview sits at 7. The next sweep should look for entries that
+  fill those first.
+- **Thin apps after Drop 6.** OLLAMA SYSTEM TEST (16 entries) and
+  Data Pack Builder (17) gained nothing in Drop 6; DUO and LYNX
+  SHARE sit at 19. The next sweep should look for entries that fit
+  them honestly.
 
 ## Strengthening work (not new entries)
 
@@ -67,10 +72,11 @@ before drafting.
   Drop 4.) Every entry in the library now rests on two or more
   sources.
 - **Direct HIG re-check, still owed.** developer.apple.com would not
-  load in Drop 3 or Drop 4, so the HIG claims in 026 and 027 were
-  checked against mirrors instead (HIG Doctor for drag and drop, the
-  HIG-derived consensus for swipe actions). If the browser can ever
-  reach developer.apple.com directly, re-check them there.
+  load in Drop 3, Drop 4, or Drop 6, so the HIG claims in 026, 027,
+  and 072 were checked against mirrors instead (HIG Doctor for drag
+  and drop, the HIG-derived consensus for swipe actions, the
+  everest.mt mirror for dark mode). If the browser can ever reach
+  developer.apple.com directly, re-check them there.
 
 ## Non-technique entries the encyclopedia wants later
 
@@ -79,8 +85,8 @@ Entries cover techniques today. The same structure fits:
 - **Concepts** — ideas bigger than one technique. Affordance is entry
   036; Fitts's law is entry 045; Hick's law is 049, the
   aesthetic-usability effect 050, overview first 051, design tokens
-  052. Still to cover: feedback loops, progressive enhancement (both
-  researched as Drop 5 backups; see Leads for Drop 6).
+  052; feedback loops is 061, progressive enhancement 062. Nothing
+  else is named yet for concepts.
 - **People** — the designers and researchers behind the ideas (Mark
   Weiser, Amber Case, and the others the entries already name).
 - **Movements and eras** — the waves the techniques arrived in
@@ -90,5 +96,5 @@ Entries cover techniques today. The same structure fits:
 
 None. The five Drop 1 source gaps (007 Liquid Glass, 009 Shape morphing,
 010 AI-native patterns, 011 Skeleton screens, 012 Progressive disclosure)
-were filled in Drop 3, and all twelve Drop 4 entries landed with sources.
-No entry in the library is sourceless.
+were filled in Drop 3, and all twelve Drop 4, Drop 5, and Drop 6 entries
+landed with sources. No entry in the library is sourceless.
