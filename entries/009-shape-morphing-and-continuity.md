@@ -27,3 +27,8 @@ morph that can't be cancelled is worse than a plain screen switch.
 - [002 Spring physics motion](002-spring-physics-motion.md)
 - [001 Micro-interactions](001-micro-interactions.md)
 - [007 Liquid Glass and glassmorphism 2.0](007-liquid-glass.md)
+
+## Sources
+
+- Transitions, Material Design 3 — https://m3.material.io/styles/motion/transitions/transition-patterns
+- M3 Motion, material-design-3-skill, GitHub — https://github.com/danieldevfull/material-design-3-skill/blob/HEAD/material-design-3/references/motion.md

@@ -28,3 +28,8 @@ one in the UI: show the source next to the pack, not buried in a file.
 
 - [019 Optimistic UI](019-optimistic-ui.md)
 - [011 Skeleton screens and honest loading](011-skeleton-screens-and-honest-loading.md)
+
+## Sources
+
+- 8 UI Design Trends in 2026, Wavespace, updated 2026-09-10 — https://www.wavespace.agency/blog/ui-design-trends
+- Five UI Patterns That Look Poised to Define 2026, DEV, 2026-05-05 — https://dev.to/sissie_hensley_568968e0fb/five-ui-patterns-that-look-poised-to-define-2026-59k3

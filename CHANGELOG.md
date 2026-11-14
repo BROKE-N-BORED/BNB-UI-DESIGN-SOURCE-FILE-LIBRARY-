@@ -3,6 +3,27 @@
 Dated history of the library: what landed, what changed, what got struck.
 Newest first.
 
+## 2026-11-13 — Drop 3: input, feedback, and forgiveness (entries 025–036)
+
+Twelve new entries: selection-following toolbar, swipe actions on list
+rows, drag and drop done right, keyboard-first power patterns,
+search-as-you-type done well, toasts and snackbars that respect
+attention, empty states and error states done well, self-hiding chrome,
+forgiving UI, conversational repair, tiered permission gates, and the
+library's first concept entry, affordances and signifiers. Six came from
+the Drop 2 queue (the floating toolbar, self-hiding HUD, swipe actions,
+undo-everywhere, voice-first UI, and agentic interfaces — each narrowed
+to one sharp technique with real numbers); six are fresh finds from
+shipping software. Every source was opened and every figure checked
+against the page it came from.
+
+The five Drop 1 source gaps are filled: 007 Liquid Glass, 009 Shape
+morphing, 010 AI-native patterns, 011 Skeleton screens, and 012
+Progressive disclosure all have Sources sections now, from the two
+unattributed roundups plus Nielsen Norman Group, Material Design 3, and
+the M3 motion reference on GitHub. No entry in the library is sourceless
+anymore.
+
 ## 2026-11-13 — Restructure: the encyclopedia
 
 The two batch files were split into 24 entries under `entries/`, one file

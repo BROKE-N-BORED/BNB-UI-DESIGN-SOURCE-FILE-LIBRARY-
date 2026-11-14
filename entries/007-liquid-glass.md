@@ -30,3 +30,9 @@ over a busy background through glass.
 - [006 Neo-skeuomorphism (Soft UI)](006-neo-skeuomorphism.md)
 - [005 Bento grids](005-bento-grids.md)
 - [009 Shape morphing and continuity](009-shape-morphing-and-continuity.md)
+
+## Sources
+
+- 8 UI Design Trends in 2026, Wavespace, updated 2026-09-10 — https://www.wavespace.agency/blog/ui-design-trends
+- Five UI Patterns That Look Poised to Define 2026, DEV, 2026-05-05 — https://dev.to/sissie_hensley_568968e0fb/five-ui-patterns-that-look-poised-to-define-2026-59k3
+- Liquid Glass Is Cracked, and Usability Suffers in iOS 26, Nielsen Norman Group, 2025-10-10 — https://www.nngroup.com/articles/liquid-glass/

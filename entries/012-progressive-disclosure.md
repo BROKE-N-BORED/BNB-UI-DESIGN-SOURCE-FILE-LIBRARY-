@@ -23,3 +23,8 @@ Data Pack Builder (one plain-words request, presets as chips).
 - [004 Just-in-time GUI](004-just-in-time-gui.md)
 - [003 Calm technology](003-calm-technology.md)
 - [020 Setup checklist](020-setup-checklist.md)
+
+## Sources
+
+- Progressive Disclosure, Nielsen Norman Group, 2006-12-04 — https://www.nngroup.com/articles/progressive-disclosure/
+- Progressive disclosure: show only what is needed, fernandoux — https://www.fernandoux.com/en/wiki/concepts/progressive-disclosure/

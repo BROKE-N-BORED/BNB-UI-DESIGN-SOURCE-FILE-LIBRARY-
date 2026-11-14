@@ -77,6 +77,7 @@ else; entries and other files point at it instead of repeating it.
 - `entries/` — the entries, one file per technique:
   - Drop 1 (2026-11-13): 001–012, modern UI design techniques.
   - Drop 2 (2026-11-13): 013–024, games, editors, and gadgets.
+  - Drop 3 (2026-11-13): 025–036, input, feedback, and forgiveness.
 - `CHANGELOG.md` — dated history of the library: drops, corrections,
   restructures.
 - `verdicts.md` — what happened when entries got used in real builds.
