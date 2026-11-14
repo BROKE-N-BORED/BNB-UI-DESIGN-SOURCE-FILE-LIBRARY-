@@ -3,6 +3,33 @@
 Dated history of the library: what landed, what changed, what got struck.
 Newest first.
 
+## 2026-11-14 — Study: PolyOrganic, the radial material dial
+
+The first study lands. Studies are a new kind of library document: a deep
+dive on one shipping product, covering everything it does, the designs and
+workflows worth stealing, and what it does not give us. PolyOrganic is a $29
+Blender add-on by Poly Playground (v1.46, launched September 22, 2026) that
+turns material picking into turning knobs on a circular dial in the viewport:
+200+ one-click styles, 20+ material types, 90+ layouts and patterns, zero
+image textures, fully procedural.
+
+Two documents: `studies/polyorganic.md` (the product, the dial anatomy, the
+material system, Pick/Turn/Ship, the workflows from the launch and table
+demos, twelve patterns worth stealing, honest scope, the creator's other
+add-ons, open questions) and `studies/polyorganic-video-walkthrough.md`
+(the 50-second launch video frame by frame: the plank, the floor, and 31
+named looks on one cube). Every value in the walkthrough was read from
+extracted frames, checked at half-second intervals through the fast cycling,
+which caught several misreadings in the video's own frame text (Ring Spacing
+6.0 mm not 1.6 cm, Figure 56% not 58%, Flow 2% not 38%, Gloss 23% with Coat
+at 25%, Edge Width 9.8 mm not 3.2 cm, the red cube is Gloss Plastic not
+Chipped Paint, the green marble is Verde, the last look is Sand after Soil).
+`templates/study.md` records the shape future studies follow, and the README
+gains a Studies section. PolyOrganic-derived entry candidates (nested-ring
+radial picker, contextual knobs, seeded randomize, real-world units,
+breadcrumb naming, weather and age as controls) join the queue for Drop 7;
+each still needs its own sources beyond PolyOrganic before it earns a number.
+
 ## 2026-11-14 — Drop 6: structure, comfort, and trust (entries 061–072)
 
 Twelve new entries: feedback loops, progressive enhancement, dockable

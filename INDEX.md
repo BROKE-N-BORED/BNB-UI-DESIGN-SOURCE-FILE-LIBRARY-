@@ -2,7 +2,8 @@
 
 The lookup page for the library. Three ways in: alphabetical, by topic, by
 app. Every entry is one file under `entries/`, self-contained and sourced.
-Entry numbers are permanent IDs and are never reused.
+Entry numbers are permanent IDs and are never reused. Studies (deep dives
+on one product) are listed at the bottom.
 
 ## Alphabetical
 
@@ -567,3 +568,8 @@ Entry numbers are permanent IDs and are never reused.
 - [022 Per-context profiles](entries/022-per-context-profiles.md) — each model remembers its usual templates.
 - [023 Focus-first navigation](entries/023-focus-first-navigation.md) — 2 px border focus ring, focus remembered per tab.
 - [037 Data visualization for non-analysts](entries/037-data-visualization-for-non-analysts.md) — one chart, one message, takeaway as the title.
+
+## Studies
+
+- [PolyOrganic: the radial material dial](studies/polyorganic.md) — every material, one dial.
+- [PolyOrganic launch video, frame by frame](studies/polyorganic-video-walkthrough.md) — the 50-second demo, preserved in writing.

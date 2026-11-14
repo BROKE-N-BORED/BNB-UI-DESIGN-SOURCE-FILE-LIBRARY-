@@ -47,6 +47,14 @@ still waiting.
 
 ## Leads for Drop 7
 
+- **PolyOrganic-derived entries** — from the study
+  (`studies/polyorganic.md`): nested-ring radial picker (two rings plus a
+  center readout), contextual knobs (controls that change with the choice),
+  seeded randomize (the Surprise button), real-world units in the UI (mm,
+  cm, metres instead of 0 to 1 sliders), breadcrumb naming the whole choice
+  (family, style, layout in plain words), weather and age as controls (a
+  Life page of dirt, grime, edge wear). Each still needs its own sources
+  beyond PolyOrganic before it earns a number.
 - **Synth demo patches** — a playable demo patch or preset that
   teaches a synth (or any deep tool) by letting you break it safely.
   Researched for 066 and held: no citable source was found for a

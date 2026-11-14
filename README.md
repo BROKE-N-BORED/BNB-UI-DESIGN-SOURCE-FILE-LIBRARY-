@@ -8,7 +8,9 @@ websites, phones, tablets, gadgets, anything with an interface worth learning
 from. What actually works gets written up as an entry: one technique or
 concept per file, each sourced and dated, each self-contained. Start at
 [INDEX.md](INDEX.md) and find the entry by name, by topic, or by the app you
-are building.
+are building. Longer deep dives on one product live under `studies/`: the
+full writeup of what it does, the designs and workflows worth stealing, and
+what it does not give us.
 
 ## Master rules file
 
@@ -68,6 +70,16 @@ entry. Free and open-source first, matching the hard $0 rule.
   an entry never breaks.
 - Before pulling an entry into a build, run it through the filter below.
 
+## Studies
+
+A study is a deep dive on one shipping product: everything it does, the
+designs and workflows worth stealing, and what it does not give us. Studies
+live under `studies/` and are listed in [INDEX.md](INDEX.md) under Studies.
+They are not entries and carry no number; an entry that grows out of a study
+still has to earn its number with its own sources. The first study is
+PolyOrganic, the radial material dial for Blender, with a frame-by-frame
+walkthrough of its launch video beside it.
+
 ## The bar
 
 Every entry has to pass these before it goes in:
@@ -121,8 +133,11 @@ else; entries and other files point at it instead of repeating it.
   - Drop 6 (2026-11-14): 061–072, structure, comfort, and trust.
 - `CHANGELOG.md` — dated history of the library: drops, corrections,
   restructures.
+- `studies/` — deep dives on one shipping product: the full writeup plus,
+  where one exists, a frame-by-frame walkthrough of its demo video.
 - `verdicts.md` — what happened when entries got used in real builds.
 - `templates/entry.md` — the shape every new entry follows.
+- `templates/study.md` — the shape every new study follows.
 - `queue.md` — entries to research next.
 
 ## Scope
